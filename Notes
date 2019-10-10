@@ -1,0 +1,127 @@
+// // ---------This is a "forEach Example"-------
+
+// var numbers = (1,12,4,18,9,7,11,3,101,5,6)
+
+// for ( let i=0; i < numbers.length; i++) {
+// console.log(numbers[i])
+
+// }
+
+// numbers.forEach(function (item){
+// console.log (item)
+
+// })
+
+// numbers.forEach(item => console.log(item))
+
+// // ---------Seperate------
+
+// function forEach(arr,fn){
+//     for (let i = 0; i < arr.length; i++) {
+// fn(arr[i])
+//     }
+// }
+
+// forEach(numbers, function(item){
+//     console.log(item)
+// })
+
+// // ---------Above in the middle is the fuction behind the scene of above----
+
+
+// // -------"Filter Example"------
+
+// var numbers = (1,12,4,18,9,7,11,3,101,5,6)
+
+// var evens = numbers.filter (function(item) {
+// if (item % 2 === 0) {
+// return true
+// } else {
+
+//     return false
+// }
+
+// }
+
+// // -------"Filter Methold explaination"----
+
+// function filter(arr,fn) {
+// let newArr = []
+// for (let i=0; i < arr.length; i++) {
+// if (fn(arr[i])) {
+// newArr.push(arr[i])
+// }
+// return newArr
+// }
+
+// filter (numbers)
+
+
+// --------------------------------Go back and double check notes to correct-------------------------------------
+
+// ----------------Map Method-----------------------
+// var numbers = [1,12,4,18,9,7,11,3,101,5,6]
+
+// var newArr = numbers.map (function(item){
+//     return function(num) {
+//     return item + num 
+//     }
+// })
+
+// newArr.forEach(fn => console.log(fn(6)))
+
+// --------What's going on behind the scenes--------
+
+// function map(arr, fn) {
+// let newArr = []
+
+// -------Look at notes to finish--------
+
+// }
+// var instructors = [
+// { firstname : 'JD', teaches : 'JavaScript'},
+// { firstname : 'Tim', teaches : 'JavaScript'},
+// { firstname : 'Brit', teaches : 'Ruby'},
+// { firstname : 'Joe', teaches : 'iOS'},
+// { firstname : 'Jake', teaches : 'JavaScript'},
+// { firstname : 'Will', teaches : 'JavaScript'},
+// { firstname : 'Calvin', teaches : 'JavaScript'},
+// { firstname : 'James', teaches : 'Ruby'}
+// ];
+
+
+// let htmlstr = '<ul>'
+// htmlstr += instructors.map(item => {
+// return <li> </li>
+
+
+// }
+
+// ----------Reduce Method--------
+
+// // - Takes an array and makes it into one value 
+
+// var numbers = [1,12,4,18,9,7,11,3,101,5,6]
+
+// var sum= nubers.reduce(function (a,b) {
+
+
+// })
+
+// first iteration
+// a=1, b=12
+// return 13
+
+// second iteration
+// a= (first iteration (1+12), b=4)
+//return 17
+
+// third iteration
+//a= 17, b=18
+//return 35
+
+
+// New Example Advancec Concept
+
+var numbers = [1
+    ,12,4,18,9,7,11,3,101,5,6]
